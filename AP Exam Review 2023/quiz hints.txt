@@ -1,0 +1,61 @@
+1. Loop, test if number is divisible by another number (#1)
+2. nested loop with bounds of inner loop dependent on outer loop counter (#5)
+3. variable's class determines if you can call method, object determines which implementation is called (#15)
+4. finding maximum/minimum value in array (ch 7, p 323)
+5. logical expression equivalence, truth table
+6. indexOf in String class
+7. nested loop, test if number is divisible by another number
+8. 2D array, matrix looking code (#19)
+9. Math.random
+10. tests what can be assigned to what (CastingAndSuch)
+11. substring in a loop, equals on a String
+12. De Morgan's law, logical expression equivalence, truth table
+13. changing 1D array values inside a loop (#23 or #11-12, 13, 17, 20, 21)
+14. if statement, Boolean operators (#4)
+15. recursion, what gets printed? (#14, 16)
+16. 2D array, enhanced for loop for rows, regular for loop for columns (#24)
+17. loop, arithmetic
+18. arithmetic, order of operations
+19. loop, is a number divisible by another (#1)
+20. in a 1D array: maximum/minimum value (p323), counting matches (p272), finding index of a match (linear search p324) (#11-12, 13, 17, 20, 21, 23) 
+
+
+21. recursive, substring (P13.1 folder in sample code)
+22. 2D array, enhanced for loops, regular for loops (#24)
+23. sorting algorithms
+24. how overloads work
+25. nested loop where bounds of inner loop depend on outer (#5)
+26. side effects when array, primitive type, and String are passed as params (#18), a side effect will occur on an array if the object is modified without copying or replacing it, a side effect cannot occur on a primitive type nor on a String, a String is immutable (SideEffects folder in sample code)
+27. sorting algorithms
+28. sorting algorithms
+29. recursion, what gets returned? (#14, 16)
+30. if/else if/else (easy)
+31. 2D array, regular for loops, data in array gets changed (#19)
+32. ArrayList, enhanced for loop, instance variables are private and are encapsulated with public methods
+33. interfaces, what you can and can't do with one or in one
+34. array, enhanced and regular for loops (Maximum and Minimum p323)
+35. ArrayList, regular for loop (element separators p323)
+36. binary search
+37. binary search
+38. 1D array, regular for loop, looping backwards
+39. recursion, what does the code do? (#14, 16)
+40. ArrayList, add, set (read the Java Quick Reference carefully)
+
+
+FRQ#1:
+
+1. 1D arrays, 2D arrays, loops, Sum and Average Value (p323), 3 parts to the question, in part 2 you have to call the method you write in part 1, in part 3 you have to call the method(s) from part 1 and/or 2. (#4, p53)
+
+FRQ#2:
+
+2. write an entire class, loop through String, substring, indexOf (#3, p51, #2, p47)
+
+FRQ#3:
+
+3. ArrayList, loop, get, set, remove, linear search, call methods from the code given to you, PlayList from chapter 7 (#1, p44)
+
+FRQ#4:
+
+4. Write an interface, implement the interface, use the implemented method in a loop
+
+

@@ -1,0 +1,531 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MazeTester",
+            "request": "launch",
+            "mainClass": "MazeTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "FloodFill",
+            "request": "launch",
+            "mainClass": "FloodFill",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "MapsTester",
+            "request": "launch",
+            "mainClass": "MapsTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "FloodFillTester",
+            "request": "launch",
+            "mainClass": "FloodFillTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Stacks",
+            "request": "launch",
+            "mainClass": "Stacks",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Tests",
+            "request": "launch",
+            "mainClass": "Tests",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "UniqueWords",
+            "request": "launch",
+            "mainClass": "UniqueWords",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Maps",
+            "request": "launch",
+            "mainClass": "Maps",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Sets",
+            "request": "launch",
+            "mainClass": "Sets",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Lists",
+            "request": "launch",
+            "mainClass": "Lists",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Files",
+            "request": "launch",
+            "mainClass": "Files",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "DirectoryPrint",
+            "request": "launch",
+            "mainClass": "DirectoryPrint",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "SentenceTester",
+            "request": "launch",
+            "mainClass": "SentenceTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch P145StudentVersion",
+            "request": "launch",
+            "mainClass": "P145StudentVersion",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTester",
+            "request": "launch",
+            "mainClass": "MergeTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortTester",
+            "request": "launch",
+            "mainClass": "SortTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowersOfHanoiTester",
+            "request": "launch",
+            "mainClass": "TowersOfHanoiTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FinderTester",
+            "request": "launch",
+            "mainClass": "FinderTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialandExponentTester",
+            "request": "launch",
+            "mainClass": "FactorialandExponentTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeTester",
+            "request": "launch",
+            "mainClass": "TreeTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeTester",
+            "request": "launch",
+            "mainClass": "Tree.TreeTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialTester",
+            "request": "launch",
+            "mainClass": "FactorialTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPractice",
+            "request": "launch",
+            "mainClass": "TestPractice",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tester",
+            "request": "launch",
+            "mainClass": "Tester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Supertester",
+            "request": "launch",
+            "mainClass": "Supertester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MovieQueueTester",
+            "request": "launch",
+            "mainClass": "MovieQueueTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CartTester",
+            "request": "launch",
+            "mainClass": "CartTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductDatabaseTester",
+            "request": "launch",
+            "mainClass": "ProductDatabaseTester",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicTacToeRunner",
+            "request": "launch",
+            "mainClass": "TicTacToeRunner",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicTacToe",
+            "request": "launch",
+            "mainClass": "TicTacToe",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Know",
+            "request": "launch",
+            "mainClass": "Know",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fifth",
+            "request": "launch",
+            "mainClass": "Fifth",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fourth",
+            "request": "launch",
+            "mainClass": "Fourth",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Third",
+            "request": "launch",
+            "mainClass": "Third",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch First",
+            "request": "launch",
+            "mainClass": "First",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arays",
+            "request": "launch",
+            "mainClass": "Arays",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralFrame",
+            "request": "launch",
+            "mainClass": "SpiralFrame",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNumbers",
+            "request": "launch",
+            "mainClass": "RandomNumbers",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuffonNeedle",
+            "request": "launch",
+            "mainClass": "BuffonNeedle",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Loop",
+            "request": "launch",
+            "mainClass": "Loop",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringSort",
+            "request": "launch",
+            "mainClass": "StringSort",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankAccount",
+            "request": "launch",
+            "mainClass": "BankAccount",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Year",
+            "request": "launch",
+            "mainClass": "Year",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Predicate",
+            "request": "launch",
+            "mainClass": "Predicate",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeatherData",
+            "request": "launch",
+            "mainClass": "WeatherData",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Methods",
+            "request": "launch",
+            "mainClass": "Methods",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Primitive",
+            "request": "launch",
+            "mainClass": "Primitive",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Math",
+            "request": "launch",
+            "mainClass": "Math",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Distance",
+            "request": "launch",
+            "mainClass": "Distance",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shape",
+            "request": "launch",
+            "mainClass": "Shape",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Easter",
+            "request": "launch",
+            "mainClass": "Easter",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Car",
+            "request": "launch",
+            "mainClass": "Car",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clock",
+            "request": "launch",
+            "mainClass": "Clock",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_be1be7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Other",
+            "request": "launch",
+            "mainClass": "Other",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frame",
+            "request": "launch",
+            "mainClass": "Frame",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ch2",
+            "request": "launch",
+            "mainClass": "Ch2",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Image",
+            "request": "launch",
+            "mainClass": "Image",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clock",
+            "request": "launch",
+            "mainClass": "Clock",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ch3",
+            "request": "launch",
+            "mainClass": "Ch3",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DieSimulator",
+            "request": "launch",
+            "mainClass": "DieSimulator",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjectConstructor",
+            "request": "launch",
+            "mainClass": "ObjectConstructor",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaPrinter",
+            "request": "launch",
+            "mainClass": "AreaPrinter",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch chapter1",
+            "request": "launch",
+            "mainClass": "chapter1",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch $",
+            "request": "launch",
+            "mainClass": "$",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
+        },
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

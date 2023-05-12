@@ -1,0 +1,52 @@
+1. order arithmetic of operations, integer division, %
+2. if/else, test number to be odd or even
+3. Math.abs, order of operations, integer division
+4. nested if/else
+5. how constructor initializes instance variables, how to overload a constructor
+6. casting, integer division, order of arithmetic operations
+7. logical expression equivalence, de morgan's law, converting if/else statements to logical expressions
+8. how to write a constructor, what primitive types can be assigned with/without casting, when to use void or not and return or not, variable scope
+9. ArrayList add, remove, and set. The order of elements after calling these methods.
+10. for loop, number of iterations, test for even or odd, what is printed
+11. while loop, number of iterations, loop forwards or backwards, what is printed
+12. how to test for null to avoid null pointer exception
+13. de morgan's law and logical expression equivalance
+14. "if" / "else if" / "else" chain, is a series of if's without "else if" or "else" the same, similar to earthquake example in book but harder
+15. Math.random() range of numbers generated
+16. recursive method, for loop in it, what is printed
+17. superclass/subclass, superclass constructor call from subclass, superclass method call from subclass, variable determines if you can call a method, object type determines which method is called
+18. pick correct for loop header by determining bounds needed to solve problem described
+19. 2D array, nested loops, what value does code calculate
+20. maximum value or object with maximum value, calling public methods vs using private instance variables
+21. nested loops in which inner loop bounds depend on outer loop position, String array, String length
+22. how many times is line inside nested loops and if statement executed, brute force count keeping track of number of iterations and number of times if condition is true
+23. 2D array, choose loop code that produces the output in the order described, there's that row major thing again
+24. A class's instance and static variables are incremented by several constructor calls and several mutator method calls and you have to keep track of the values
+25. Backwards loop used to reorder characters in a String. Choose correct order or bounds error.
+26. Code given with loops (and nested loops). Count how many times something is printed.
+27. Does logical expression evaluate to true or false. Could use De Morgan's law or could brute force test for all combinations of true and false.
+28. Loop and substring used to manipulate a String. IndexOf used to terminate loop. Choose resulting String or bounds error.
+29. Arithmetic applied to recursive method's input. What value is returned?
+30. How to call a superclass's constructor from subclass.
+31. Which code correctly executes the given common algorithm.
+32. Superclass/subclass assignment. Can call method if defined in variable's class. Version called is the one in the object's class.
+33. 2D array with contents given. Nested loops. What is printed? Tests row major vs column major and loop bounds.
+34. ArrayList contents changed with remove and add. Code does not work as intended. Why?
+35. Code intended to find mode of an array of numbers. Choose code that correctly completes the algorithm.
+36. Count how many times two different loops execute and answer under what conditions they execute the same number of times.
+37. Code with loop. What does it calculate? Bounds are important.
+38. Common algorithm applied to ArrayList. Know how to loop through ArrayList with both regular and enhanced for loops, how to access ArrayList elements in both types of loop, how to call a public method on objects of the ArrayList in the context of both loop types, how to use the value returned from that method call.
+39. Recursive method that examines a String. Substring, compareTo. What input returns desired output?
+40. Variable type determines whether you can call a method. Object type determines which method is called.
+
+FRQ
+
+1. a) Implement common algorithm applying the changes specified. Have proper loop bounds, use % and integer division. b) Write predicate method. c) Implement common algorithm. Use poper loop bounds. Calculate average including fraction. a-c) Call already existing methods as instructed to avoid redundant code.
+
+2. Write a class. Instance variables, constructors, methods according to instructions. Use Math.random to generate required number range.
+
+3. ArrayList. Loop through it. Common algorithms. Call methods on ArrayList object. String.equals. String.indexOf. ArrayList add method.
+
+4. 2D array. Loop through it with proper bounds. Construct objects of class given in question and assign to array. Access 2D array elements. Call methods on objects in array. Objects in 2D array are of a class given in the questions and you must call constructors and methods from among those in the class.
+
+Don't forget to return a value from a method if required.
