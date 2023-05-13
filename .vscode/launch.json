@@ -9,6 +9,13 @@
             "name": "MazeTester",
             "request": "launch",
             "mainClass": "MazeTester",
+            "projectName": "AP CS_8937b897"
+        },
+        {
+            "type": "java",
+            "name": "MazeTester",
+            "request": "launch",
+            "mainClass": "MazeTester",
             "projectName": "Jonathan Saunders - Amar Kanakamedala_e852fb2f"
         },
         {

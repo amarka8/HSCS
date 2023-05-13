@@ -3,13 +3,13 @@ import java.util.Stack;
 import java.util.Arrays;
 public class Maze {
     private String board[][];
-    // private Stack<Path> paths;
+    private Stack<Path> paths;
     int x;
     int y;
     public Maze(int x, int y){
         this.x=x;
         this.y=y;
-        // paths= new Stack<Path>();
+        paths= new Stack<Path>();
         this.board=new String[8][8];
         for(int i=0;i<board.length;i+=7){
             if(i==7){
@@ -44,10 +44,10 @@ public class Maze {
         }
         board[3][0]=" ";
     }
-    // public Stack<Path> getPaths(){
-    //     return paths;
-    // }
-    public boolean extendLocation(int x, int y, Path path){
+    public Stack<Path> getPaths(){
+        return paths;
+    }
+    public void extendLocation(Path path){
         Stack<Path> paths=new Stack<Path>();
         Path[] subPaths=computePaths(x,y);
         if (subPaths!=null){
@@ -64,36 +64,26 @@ public class Maze {
             }
             extendLocation(x, y, path);
         }
-    //     int increment;
-    //     boolean intersection=false;
-    //     if(p.getDirection().equals("North")){
-    //         increment=-1;
-    //         while(!isBlocked(,p.getCol())&&!isExit()){
-    //             p.increaseRow(increment);
-    //             if()
-    //         }
-    //     }
-    //     else if(location.getDirection().equals("East")){
-    //         increment=1;
-    //         while(!isBlocked(location.getRow(),location.getCol())&&!intersection&&!isExit()){
-    //             location.increaseCol(increment);
-    //             intersection=isIntersection();
-    //         }
-    //     }
-    //     else if(location.getDirection().equals("South")){
-    //         increment=1;
-    //         while(!isBlocked(location.getRow(),location.getCol())&&!intersection&&!isExit()){
-    //             location.increaseRow(increment);
-    //             intersection=isIntersection();
-    //         }
-    //     }
-    //     else{
-    //         increment=-1;
-    //         while(!isBlocked(location.getRow(),location.getCol())&&intersection&&!isExit()){
-    //             location.increaseCol(increment);
-    //             intersection=isIntersection();
-    //         }
-    //     }
+        // if(path.getDirection().equals("North")){
+        //     while(!isBlocked(x,y)&&!isExit()&&!isIntersection()){
+        //         y--;
+        //     }
+        // }
+        // else if(path.getDirection().equals("East")){
+        //     while(!isBlocked(x,y)&&!isExit()&&!isIntersection()){
+        //         x++;
+        //     }
+        // }
+        // else if(path.getDirection().equals("South")){
+        //     while(!isBlocked(x,y)&&!isExit()&&!isIntersection()){
+        //         y++;
+        //     }
+        // }
+        // else {
+        //     while(!isBlocked(x,y)&&!isExit()&&!isIntersection()){
+        //         x--;
+        //     }
+        // }
     }
     public void computePaths(){
         // int paths=0;
@@ -128,7 +118,7 @@ public class Maze {
             }
         }
     }
-    public boolean isExit(int x, int y){
+    public boolean isExit(){
         return (x==0||y==0||y==board[0].length-1||x==board.length-1)&&(board[x][y].equals(" "));
     }
     public boolean isBlocked(int x, int y){
@@ -154,19 +144,19 @@ public class Maze {
         }
         return false;
     }
-    // public String toString(){
-    //     String s="";
-    //     for (int i=0; i<board.length;i++){
-    //         for (int j=0; j<board[i].length;j++){
-    //             if(i==location.getRow()&&j==location.getCol()){
-    //                 s+=". ";
-    //             }
-    //             else{
-    //                 s+=board [i][j]+" ";
-    //             }
-    //         }
-    //         s+="\n";
-    //     }
-    //     return s;
-    // }
+    public String toString(){
+        String s="";
+        for (int i=0; i<board.length;i++){
+            for (int j=0; j<board[i].length;j++){
+                if(i==x&&j==y){
+                    s+=". ";
+                }
+                else{
+                    s+=board [i][j]+" ";
+                }
+            }
+            s+="\n";
+        }
+        return s;
+    }
 }
