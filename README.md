@@ -1,3 +1,2 @@
 # HSCS
-# HSCS
-# HSCS
+# Projects from AP Computer Science A
